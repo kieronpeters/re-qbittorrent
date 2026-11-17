@@ -1,0 +1,47 @@
+﻿# Build output
+build/
+out/
+dist/
+bin/
+obj/
+
+# Third-party binaries and samples (never commit analysed artifacts)
+*.exe
+*.dll
+*.sys
+*.pdb
+*.lib
+*.a
+*.o
+*.obj
+*.so
+*.dylib
+samples/
+testdata/
+
+# Analysis artifacts
+analysis/
+dumps/
+*.idb
+*.i64
+*.gpr
+*.rep
+
+# Environments
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+
+# IDE / OS
+.vs/
+.idea/
+*.user
+.DS_Store
+Thumbs.db
+
+# Local secrets / config
+.env
+*.local
+secrets/
